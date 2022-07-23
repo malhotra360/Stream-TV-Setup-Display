@@ -1,0 +1,69 @@
+body{
+  background-color: #b31b21;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 7rem;
+  font-family: serif;
+  margin: 0 0 0 0;
+  padding-top: 0;
+  border-bottom: 1px;
+}
+
+p {
+  font-size: 2rem;
+  color: #4b0082;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+}
+
+hr {
+  border-color: black;
+  border-width: 5px;
+  height: 0;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+img {
+  width: 45%;
+}
+
+.container {
+  width: 100%;
+  margin-top: 2%;
+
+}
+
+.port {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.verticalLine {
+  text-align: center;
+  margin-left: 50%;
+  margin-top: -5%;
+}
+
+.inferno {
+  width: 10%;
+  border-radius: 60%;
+  margin: 0;
+}
+
+.logo {
+  width: 10%;
+  border-radius: 50%;
+  margin-left: 90%;
+}
+
+.players {
+  border-radius: 60%;
+  width: 40%;
+}
