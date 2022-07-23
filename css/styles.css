@@ -1,69 +1,78 @@
-body{
-  background-color: #b31b21;
+body {
+  background-color: #750600;
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
+  color: white;
   text-align: center;
-  font-weight: bold;
   font-size: 7rem;
-  font-family: serif;
+  font-family: "Arial Black";
   margin: 0 0 0 0;
-  padding-top: 0;
   border-bottom: 1px;
 }
 
+h2 {
+  color: white;
+  font-family: "Arial Black";
+  font-size: 5rem;
+  text-shadow: 32px 32px 64px #000000;
+}
+
 p {
-  font-size: 2rem;
   color: #4b0082;
-  font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
+  font-family: "Arial Black";
   margin: 0;
+  text-shadow: 32px 32px 64px white;
 }
 
 hr {
   border-color: black;
-  border-width: 5px;
+  border-width: 3px;
   height: 0;
-  width: 100%;
+  width: 100vw;
   padding-bottom: 0;
 }
 
-img {
-  width: 45%;
+.container {
+  background-color: #750600;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column
 }
 
-.container {
-  width: 100%;
-  margin-top: 2%;
-
+.players {
+  width: 20vw;
 }
 
 .port {
   text-align: center;
-  display: inline-block;
-  position: relative;
-  margin-left: 20%;
-  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
 }
 
-.verticalLine {
+.port2 {
   text-align: center;
-  margin-left: 50%;
-  margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+
+  border-left: 5px solid black;
+  box-sizing: border-box;
 }
 
-.inferno {
-  width: 10%;
-  border-radius: 60%;
-  margin: 0;
-}
-
-.logo {
-  width: 10%;
-  border-radius: 50%;
-  margin-left: 90%;
-}
-
-.players {
-  border-radius: 60%;
-  width: 40%;
+.V1 {
+  border-left: 6px solid black;
+  height: 75rem;
+  position: absolute;
+  left: 52%;
 }
